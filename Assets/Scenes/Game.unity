@@ -404,6 +404,10 @@ PrefabInstance:
       propertyPath: paddingRight
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 585069441634228688, guid: bf6f746fa77e27c4d99e2b215d62fd9f, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4206653255730686819, guid: bf6f746fa77e27c4d99e2b215d62fd9f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1574,7 +1578,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 1
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
