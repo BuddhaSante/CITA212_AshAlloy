@@ -125,8 +125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 0
-  health: 30
-  score: 35
+  maxHealth: 25
+  scoreValue: 50
   hitEffect: {fileID: 3885992316981291198, guid: 403b00acf4afcda4ca4c0e298f5b8fce, type: 3}
   applyCameraShake: 0
 --- !u!114 &-5434421293003709446
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 25
+  triggerEffects: 1
 --- !u!114 &-1219284081239059478
 MonoBehaviour:
   m_ObjectHideFlags: 0

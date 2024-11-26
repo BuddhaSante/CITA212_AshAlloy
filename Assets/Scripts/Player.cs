@@ -36,10 +36,23 @@ public class Player : MonoBehaviour
     // Calculates the screen boundaries using the main camera's viewport
     void InitBounds()
     {
-        Camera mainCamera = Camera.main;
-        minBounds = mainCamera.ViewportToWorldPoint(new Vector2(0, 0));
-        maxBounds = mainCamera.ViewportToWorldPoint(new Vector2(1, 1));
+        // Reference the Polygon Collider 2D from CameraBounds
+        PolygonCollider2D cameraBounds = GameObject.Find("CameraBounds").GetComponent<PolygonCollider2D>();
+        if (cameraBounds != null)
+        {
+            // Get the world-space bounds of the collider
+            Bounds bounds = cameraBounds.bounds;
+
+            // Use the bounds to set the min and max positions
+            minBounds = bounds.min;
+            maxBounds = bounds.max;
+        }
+        else
+        {
+            Debug.LogError("CameraBounds object not found or missing PolygonCollider2D!");
+        }
     }
+
 
     // Movement logic for the player based on input and screen bounds
     void Move()

@@ -2,58 +2,86 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Spawns enemies in waves based on predefined configurations.
+/// Supports looping and randomized spawn positions for variety.
+/// </summary>
 public class EnemySpawner : MonoBehaviour
 {
-    // List of wave configurations, each containing data for a specific wave of enemies
-    [SerializeField] List<WaveConfigSO> waveConfigs;
-    
-    // Time delay between waves
-    [SerializeField] float timeBetweenWaves = 0f;
-    [SerializeField] bool isLooping;
-    
-    // Tracks the current wave being processed
-    WaveConfigSO currentWave;
-    
+    [Header("Wave Configuration")]
+    [SerializeField] List<WaveConfigSO> waveConfigs; // List of wave configurations
+    [SerializeField] float timeBetweenWaves = 2f;    // Time delay between waves
+    [SerializeField] bool isLooping = false;         // Whether the waves repeat after completion
+
+    private WaveConfigSO currentWave; // Tracks the current wave being spawned
+
     void Start()
     {
-        // Starts the coroutine to spawn enemies in waves
+        // Starts the enemy wave spawning coroutine
         StartCoroutine(SpawnEnemyWaves());
     }
 
-    // Returns the current wave configuration
+    /// <summary>
+    /// Retrieves the current wave configuration.
+    /// </summary>
+    /// <returns>The active WaveConfigSO.</returns>
     public WaveConfigSO GetCurrentWave()
     {
         return currentWave;
     }
 
-    // Coroutine to handle spawning enemies based on wave configurations
+    /// <summary>
+    /// Coroutine that handles spawning enemies for all waves in sequence.
+    /// Supports looping if enabled.
+    /// </summary>
     IEnumerator SpawnEnemyWaves()
     {
         do
         {
-        // Iterate through each wave in the wave configuration list
-        foreach (WaveConfigSO wave in waveConfigs)
+            // Iterate through each wave in the configuration list
+            foreach (WaveConfigSO wave in waveConfigs)
             {
-                currentWave = wave; // Set the current wave
+                currentWave = wave; // Set the active wave
 
                 // Spawn each enemy in the wave
                 for (int i = 0; i < currentWave.GetEnemyCount(); i++)
                 {
-                    Instantiate(
-                        currentWave.GetEnemyPrefab(0), // Gets the enemy prefab from the wave config
-                        currentWave.GetStartingWaypoint().position, // Sets the start position
-                        Quaternion.Euler(0,0,180), // No rotation
-                        transform // Sets this object as the parent
-                    );
-                    
-                    // Waits for a random time before spawning the next enemy
+                    SpawnEnemy(currentWave, i); // Spawn enemy with specific configuration
+
+                    // Wait before spawning the next enemy
                     yield return new WaitForSeconds(currentWave.GetRandomSpawnTime());
                 }
 
-                // Waits before starting the next wave
+                // Wait before starting the next wave
                 yield return new WaitForSeconds(timeBetweenWaves);
             }
         }
-        while(isLooping);
+        while (isLooping); // Repeat if looping is enabled
+    }
+
+    /// <summary>
+    /// Spawns a single enemy based on the current wave configuration.
+    /// Adds random offsets to the position for variety.
+    /// </summary>
+    /// <param name="wave">The wave configuration.</param>
+    /// <param name="index">The index of the enemy in the wave.</param>
+    private void SpawnEnemy(WaveConfigSO wave, int index)
+    {
+        Vector3 spawnPosition = wave.GetStartingWaypoint().position;
+
+        // Add a slight random offset for spawn variation
+        spawnPosition += new Vector3(
+            Random.Range(-0.5f, 0.5f), // Random offset in X
+            Random.Range(-0.5f, 0.5f), // Random offset in Y
+            0
+        );
+
+        // Instantiate the enemy prefab
+        Instantiate(
+            wave.GetEnemyPrefab(index), // Enemy prefab
+            spawnPosition,              // Spawn position
+            Quaternion.Euler(0, 0, 180), // Rotation (facing downward for top-down shooters)
+            transform                   // Set this spawner as the parent
+        );
     }
 }
