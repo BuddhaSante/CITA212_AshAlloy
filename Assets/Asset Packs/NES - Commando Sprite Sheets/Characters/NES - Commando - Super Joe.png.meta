@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,2464 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 286
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2610029e156fe745a27bbc9eb7929a6
+      internalID: -1251669845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 286
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71409cbab28575446a299a344782226b
+      internalID: -1557417574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 286
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb27b9ccc6504a42ac10f6e59e523db
+      internalID: -173201000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c47ac806f5a164b82309eb7634ff76
+      internalID: -976636227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 251
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64be4b88164f8a48974108b05b812ae
+      internalID: 1149411570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 251
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5063fbd90a36f54295b16edaa251e62
+      internalID: -216570954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 251
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195dd470746b0de43a6e4b5d8066f5de
+      internalID: -1603963851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 251
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d173dd7244c4d4c9d24e167d788de2
+      internalID: 1527440681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 242
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51056edb8692d8141b9fefda7cb112aa
+      internalID: -1665036221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b5c3b15fa1ab54cad70428dc350170
+      internalID: -339788186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fe32171b3449848a73a79623a32640
+      internalID: 1018186256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c83a60cb0303447bfc2adf3bb7dde3
+      internalID: 1130390008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600f8016438395c46948fd5d89d95da2
+      internalID: -755373620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836fc80694681614088460413766d0f4
+      internalID: -1109291958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d1364ea8fbd61428297f4c8a797d70
+      internalID: -273214249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a80c64ab8609074bb2bd3c32c7d071b
+      internalID: -369495738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba64c4a309978bb4d96229ecd05ea31c
+      internalID: 335913179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d938247ddcf442447b05ed9eee69e391
+      internalID: 358657305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_18
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46591f692782334abdc05787745fe01
+      internalID: -1621556145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_19
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d4ebe3f4e9f1b46a6b923c6ca4762b
+      internalID: -1150999091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f094122d3d6b9f46859008324e49bd9
+      internalID: 1072747809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abf3399f1c0daf4dbd8ec60aaaba995
+      internalID: 464005557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_22
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d78b884b21788488ddaf4c69411fa9
+      internalID: -1844083435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_23
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 215
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c371c7ec42d257419e623c7a5ece1a1
+      internalID: 1418519701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650c4224fc034f34fb5c3808a769b4a7
+      internalID: 296652160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7917ad30282a3c746991214534739197
+      internalID: 1016178276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_26
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbbc0ae7dca2d84aaa0881296a35a2a
+      internalID: -1670173310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_27
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a4be9b051e2604e95ff290c613d635
+      internalID: 1495824044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_28
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a525d20c41da34eb5c0e466a39e182
+      internalID: -29216555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25038bff1b153044b67b27b097dfddd
+      internalID: 2125863325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_30
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c609e9a635c54599d574034099f8e
+      internalID: 1115255940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_31
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f9b7957c1117b41838dea9b61478bf
+      internalID: 388077481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_32
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cd15ad1d2a2df49aaa27f7c755c05e
+      internalID: 1591622864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_33
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d7e516c89fd5948a2f3c790b8e32c5
+      internalID: -1731403006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_34
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d29c3eb84131ec4b9c74cbb52fabc2d
+      internalID: -1985659960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45bcfb050b2d8447976811c129adf4c
+      internalID: 1094581601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_36
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92db0f332a742844a8dacdb9912930d0
+      internalID: -2008138156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_37
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d38b9bdf0f0304ea769aa56c786645
+      internalID: 2133071949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_38
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 188
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfc2ada7e8e9c9498e2434d05e0aa4b
+      internalID: -1585700555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2520085537831458873af24fe813cb
+      internalID: -1984178876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_40
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5447bf9db52fb074985cff3a7b1775bd
+      internalID: 1084745576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_41
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055de45298ec1e54abd1ab2433b53bd8
+      internalID: -1416799424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd577ddacf34c84697e1682cad2ac35
+      internalID: 1823387560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_43
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed85c33bdf242a44fa121b8facdac682
+      internalID: -1242057766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_44
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e39b81a3d280554399375bbba51670a
+      internalID: -1398031570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_45
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906e179ad0d02ed49875a6f8b6e9091e
+      internalID: 153219382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_46
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdde82bafe5d1984ab56986ae759f2b9
+      internalID: -1304870916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_47
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392d6c79d3d944f449fb9d65d8f24aea
+      internalID: 1486267987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_48
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 161
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6c412a4a7726c4186f9379d7ce1f1f
+      internalID: -389889960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff014987db5f8e499dcc27e8da5e770
+      internalID: 731147421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_50
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b142e13eef1a94f8064e26ef84d91e
+      internalID: -225942245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_51
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac2af2ebe799ca4e96a21ef33312ad6
+      internalID: 1021130728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1968af2b30b7e424dbe9cd778f86f316
+      internalID: -1272268601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eaef0936708ae488b5525d91fc92fd
+      internalID: -770936487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_54
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f557781bf43b141ad1b536209f5c01
+      internalID: 128417646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_55
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c9ed131dd5d1a4eaf1be2b2f2b518a
+      internalID: 1741097615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_56
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc08839ffff3de042933c8462ae6ab03
+      internalID: -2058620226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_57
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ce65083110a524db9bd696500895c2
+      internalID: -319570873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_58
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 134
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01532ff93e94e34893da7f818da99cc
+      internalID: 133212015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595417b9ca861624b8f1748eab728c2a
+      internalID: -1972866096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302ff944fc47ba44b8bfdec6db665c6d
+      internalID: -683601702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_61
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d0dee68ee3efb45baed696cfcef2a3
+      internalID: -1413523755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_62
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d33a1cdee4dbf94bb2850feba1c6f0b
+      internalID: 1693956520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_63
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bf9d3653c1f314d985cbb67095fcc9
+      internalID: 917856665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b736073dc38eff0458caf7a0674cb690
+      internalID: 1426102092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_65
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b811139965eb430488c8c73cc7ca5464
+      internalID: 473888341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_66
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3501919d2f63744097bef46d1656811
+      internalID: 2078414586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_67
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eb66ba7a500a647993abf809e64087
+      internalID: 764911420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_68
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc53a5ea0740b74bb2983de44b00344
+      internalID: 2050198878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_69
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cb90b3cf9738c409cad9b2e5c1a380
+      internalID: -517059300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_70
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c7db30a66b44641b6d44d32d603d2f
+      internalID: -12639261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_71
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48eb152164aff364c9adbda7c177048a
+      internalID: 213384130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_72
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbe84c81ec871d4eabb99a3a4570857
+      internalID: 1024004251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_73
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 107
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1692e7fbac9060f43aef9279f416d70c
+      internalID: 1120895799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_74
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a2ec147a8778943936e65cbcc5a07c
+      internalID: -1964407671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_75
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd586fef8ebbeed4ea06483c127140e3
+      internalID: 1108853558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_76
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fdceb5b9e72ec4f9c23d5a1b62ad3d
+      internalID: -1746029600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_77
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a774f40bad2a6e4d9b455827cf3e32a
+      internalID: 847760081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_78
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838ec08c995991041bca6f927ea134dd
+      internalID: -1765733973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eeae7ce148a4a48975478f297da831
+      internalID: -1393791513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_80
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3411ad7446b5c4c97f6abc4829b45f
+      internalID: -220035237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_81
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f307cbfe15cd394385b591bb56eecf0
+      internalID: -2017737718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_82
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0f71f107e55f44ca541b836ff45ee2
+      internalID: 924211913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_83
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4527991fe0f1042bd14db3d16b0934
+      internalID: 1400984377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_84
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff707465cb95b824ca7fc76913519cde
+      internalID: -281631918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_85
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e5ce5f89d9b4540983c059d7be9f5d
+      internalID: 761197282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_86
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094b66df17f04ef43ab53c0f98265001
+      internalID: -1934884161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_87
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30b2b7aaab2de54c8b0841b9ec9e15c
+      internalID: -1308745904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_88
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 80
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61026761c78b8a840bfdaf87b3aeae7d
+      internalID: -1569293575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_89
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 39
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b148d492d13a42bb612c1bec26eee
+      internalID: -1314993473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_90
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df90b8fef90401f4a8900bea2064d2b9
+      internalID: -1698821194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_91
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 71
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdc93fd3642be84296efb47bae6ebc2
+      internalID: 698406007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_92
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 71
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb93f1f15e121e344af926a46a5e279c
+      internalID: -500854636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_93
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 71
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a3c46318c0aae42bdcba2ec584937c
+      internalID: -1166650509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_94
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 71
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061457ab0db047e449f5a4a370052bf4
+      internalID: -2025035629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_95
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 71
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5d514a9ffd5274fbe260187e9eb82c
+      internalID: 106803174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 44
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c678c8ddd8a2e418cf8d7be79f9d1a
+      internalID: -818186526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_97
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 44
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec8961f19318894fb49e2c9a4007b0e
+      internalID: 1203821747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_98
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 44
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c35ac360ffd034f8f6f5487a94c95d
+      internalID: -132723563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_99
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 44
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f756f6f388efd004b8032f3f13f4b0a4
+      internalID: 843404949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_100
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 44
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa7dff627543b249a9c93872c2584db
+      internalID: 1787116788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_101
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353ffd6d2b029c04699af4566fd1ee9d
+      internalID: -512485347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_102
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bc6eb6ef87df84e835de727872ce83
+      internalID: -915051020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_103
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deee9caf0c553f248bf1a58785ad832e
+      internalID: -380585231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_104
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103c04c2aeec61246a370689bd497530
+      internalID: 94504482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_105
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 52
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e00845246e96524bbe2ed661f30d6af
+      internalID: 1952748586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_106
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 36
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7efdd708366cf2489884cc02cbbaabf
+      internalID: -1419754354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_107
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 36
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc652bddc6c8fc4ea3944fd0f3829bd
+      internalID: 263246189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_108
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 36
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33c7652ed3a6d845a1cdffa7ba4b001
+      internalID: -91871758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_109
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12177041536016e4a8bea9fa54771f2d
+      internalID: -416134321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_110
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 17
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166bf691a88bffc4e99289a79981f894
+      internalID: -150808968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_111
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 17
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a58810444770c4c8933e329df3782c
+      internalID: 477901336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_112
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 17
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6c357f3ad49cc4cb207d51e5b7cf1b
+      internalID: -2044743567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_113
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 17
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91502128a028352429c44b0de0163878
+      internalID: -15280173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_114
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaa5f42c72e62b4ab47d0e7413cba20
+      internalID: 212841361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_115
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa98bace3bf015748b1b43f55a9fabfa
+      internalID: 2102188676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Super Joe_116
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cde2bb2970ee946a8dcd99b93b18ba
+      internalID: -465236015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +2576,124 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NES - Commando - Super Joe_0: -1251669845
+      NES - Commando - Super Joe_1: -1557417574
+      NES - Commando - Super Joe_10: 1018186256
+      NES - Commando - Super Joe_100: 1787116788
+      NES - Commando - Super Joe_101: -512485347
+      NES - Commando - Super Joe_102: -915051020
+      NES - Commando - Super Joe_103: -380585231
+      NES - Commando - Super Joe_104: 94504482
+      NES - Commando - Super Joe_105: 1952748586
+      NES - Commando - Super Joe_106: -1419754354
+      NES - Commando - Super Joe_107: 263246189
+      NES - Commando - Super Joe_108: -91871758
+      NES - Commando - Super Joe_109: -416134321
+      NES - Commando - Super Joe_11: 1130390008
+      NES - Commando - Super Joe_110: -150808968
+      NES - Commando - Super Joe_111: 477901336
+      NES - Commando - Super Joe_112: -2044743567
+      NES - Commando - Super Joe_113: -15280173
+      NES - Commando - Super Joe_114: 212841361
+      NES - Commando - Super Joe_115: 2102188676
+      NES - Commando - Super Joe_116: -465236015
+      NES - Commando - Super Joe_12: -755373620
+      NES - Commando - Super Joe_13: -1109291958
+      NES - Commando - Super Joe_14: -273214249
+      NES - Commando - Super Joe_15: -369495738
+      NES - Commando - Super Joe_16: 335913179
+      NES - Commando - Super Joe_17: 358657305
+      NES - Commando - Super Joe_18: -1621556145
+      NES - Commando - Super Joe_19: -1150999091
+      NES - Commando - Super Joe_2: -173201000
+      NES - Commando - Super Joe_20: 1072747809
+      NES - Commando - Super Joe_21: 464005557
+      NES - Commando - Super Joe_22: -1844083435
+      NES - Commando - Super Joe_23: 1418519701
+      NES - Commando - Super Joe_24: 296652160
+      NES - Commando - Super Joe_25: 1016178276
+      NES - Commando - Super Joe_26: -1670173310
+      NES - Commando - Super Joe_27: 1495824044
+      NES - Commando - Super Joe_28: -29216555
+      NES - Commando - Super Joe_29: 2125863325
+      NES - Commando - Super Joe_3: -976636227
+      NES - Commando - Super Joe_30: 1115255940
+      NES - Commando - Super Joe_31: 388077481
+      NES - Commando - Super Joe_32: 1591622864
+      NES - Commando - Super Joe_33: -1731403006
+      NES - Commando - Super Joe_34: -1985659960
+      NES - Commando - Super Joe_35: 1094581601
+      NES - Commando - Super Joe_36: -2008138156
+      NES - Commando - Super Joe_37: 2133071949
+      NES - Commando - Super Joe_38: -1585700555
+      NES - Commando - Super Joe_39: -1984178876
+      NES - Commando - Super Joe_4: 1149411570
+      NES - Commando - Super Joe_40: 1084745576
+      NES - Commando - Super Joe_41: -1416799424
+      NES - Commando - Super Joe_42: 1823387560
+      NES - Commando - Super Joe_43: -1242057766
+      NES - Commando - Super Joe_44: -1398031570
+      NES - Commando - Super Joe_45: 153219382
+      NES - Commando - Super Joe_46: -1304870916
+      NES - Commando - Super Joe_47: 1486267987
+      NES - Commando - Super Joe_48: -389889960
+      NES - Commando - Super Joe_49: 731147421
+      NES - Commando - Super Joe_5: -216570954
+      NES - Commando - Super Joe_50: -225942245
+      NES - Commando - Super Joe_51: 1021130728
+      NES - Commando - Super Joe_52: -1272268601
+      NES - Commando - Super Joe_53: -770936487
+      NES - Commando - Super Joe_54: 128417646
+      NES - Commando - Super Joe_55: 1741097615
+      NES - Commando - Super Joe_56: -2058620226
+      NES - Commando - Super Joe_57: -319570873
+      NES - Commando - Super Joe_58: 133212015
+      NES - Commando - Super Joe_59: -1972866096
+      NES - Commando - Super Joe_6: -1603963851
+      NES - Commando - Super Joe_60: -683601702
+      NES - Commando - Super Joe_61: -1413523755
+      NES - Commando - Super Joe_62: 1693956520
+      NES - Commando - Super Joe_63: 917856665
+      NES - Commando - Super Joe_64: 1426102092
+      NES - Commando - Super Joe_65: 473888341
+      NES - Commando - Super Joe_66: 2078414586
+      NES - Commando - Super Joe_67: 764911420
+      NES - Commando - Super Joe_68: 2050198878
+      NES - Commando - Super Joe_69: -517059300
+      NES - Commando - Super Joe_7: 1527440681
+      NES - Commando - Super Joe_70: -12639261
+      NES - Commando - Super Joe_71: 213384130
+      NES - Commando - Super Joe_72: 1024004251
+      NES - Commando - Super Joe_73: 1120895799
+      NES - Commando - Super Joe_74: -1964407671
+      NES - Commando - Super Joe_75: 1108853558
+      NES - Commando - Super Joe_76: -1746029600
+      NES - Commando - Super Joe_77: 847760081
+      NES - Commando - Super Joe_78: -1765733973
+      NES - Commando - Super Joe_79: -1393791513
+      NES - Commando - Super Joe_8: -1665036221
+      NES - Commando - Super Joe_80: -220035237
+      NES - Commando - Super Joe_81: -2017737718
+      NES - Commando - Super Joe_82: 924211913
+      NES - Commando - Super Joe_83: 1400984377
+      NES - Commando - Super Joe_84: -281631918
+      NES - Commando - Super Joe_85: 761197282
+      NES - Commando - Super Joe_86: -1934884161
+      NES - Commando - Super Joe_87: -1308745904
+      NES - Commando - Super Joe_88: -1569293575
+      NES - Commando - Super Joe_89: -1314993473
+      NES - Commando - Super Joe_9: -339788186
+      NES - Commando - Super Joe_90: -1698821194
+      NES - Commando - Super Joe_91: 698406007
+      NES - Commando - Super Joe_92: -500854636
+      NES - Commando - Super Joe_93: -1166650509
+      NES - Commando - Super Joe_94: -2025035629
+      NES - Commando - Super Joe_95: 106803174
+      NES - Commando - Super Joe_96: -818186526
+      NES - Commando - Super Joe_97: 1203821747
+      NES - Commando - Super Joe_98: -132723563
+      NES - Commando - Super Joe_99: 843404949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

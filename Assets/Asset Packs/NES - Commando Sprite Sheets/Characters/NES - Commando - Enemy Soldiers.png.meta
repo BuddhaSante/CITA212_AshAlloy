@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,2296 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52146e29f2c105941a6ae4a09036ecdf
+      internalID: -1933876766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 136
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12966ec054491447833a77fbd1ca604
+      internalID: 722223070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504b23ae1f7996049ac108a584295a75
+      internalID: 44826829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7b97a05ab15d7489b547c014cfc8ea
+      internalID: 1372686670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 136
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757c26fb85110484c96822b4074abc10
+      internalID: 623582335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593f16d105d6cdf4ba9caed82c3f7e72
+      internalID: 693189612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013c7ecaa7d241447a7eb37e741bc382
+      internalID: 1132024966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 136
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcab81bbd642c54594becc7e5ddc903
+      internalID: -555931504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04be2ce1f226d854fab2e88057a4eeb1
+      internalID: -1067651479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6b9eb6bb242964187eee272ee875ad
+      internalID: -1303103673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_10
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6477e28834dbdc47912e00f6c7becaf
+      internalID: 293688996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0497ec52780de4f4fab937391c63dbfd
+      internalID: 939666789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d294d5d510f594caaef518f3112545
+      internalID: 1270592263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_13
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 130
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ace0a7274e041d43b2fef3fb43eaadd
+      internalID: -1372704733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 130
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915089baa6d80d34395382bc90df08bf
+      internalID: 1984566585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 130
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6aebab4e37ce344af1427442cc6f87
+      internalID: 605896095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_16
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 130
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30196a23c09344c4ea6670bd48edd899
+      internalID: -1065591415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_17
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a568ed5ac56b940b4ada10986cb9bd
+      internalID: 833460429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_18
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 138
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771dd32689419b740a2358d09a1e776e
+      internalID: -443800382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f59009638a38e4da0eb16ecaec1fec
+      internalID: 24849877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_20
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 138
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263562a03c9adfd479d78ed8707438fb
+      internalID: -506869171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dd95f35f9dae5429c45c361b85140b
+      internalID: -1554955601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 109
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baebb4fb7386cf44accd30b11dedec6
+      internalID: -837024684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_23
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 109
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c7004e8e321714eaf1354857b16b68
+      internalID: -1359584769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_24
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 109
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8f05ae7b0a479478e79cf2db5a65dd
+      internalID: 1366528908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_25
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 109
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f8be64d8ffae74fb653078f904fe52
+      internalID: -756025794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 109
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd81456cfeec4448503d233d57041f
+      internalID: 918785176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_27
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 109
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6500f025e3cb747bd20ffab602e91f
+      internalID: 976795807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_28
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 109
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab12067f2216254089dd6546f08aac0
+      internalID: 556341573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 109
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3385ac87c19855409383dff7efda6a5
+      internalID: 1402416387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_30
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 110
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8847e8abad5d35649ae143ca62d3d295
+      internalID: 2077640033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 110
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06709637f2eca5241a94f6aacd4557e9
+      internalID: -1713397018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 110
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf278750ac1e80409085d4e2620ddba
+      internalID: -2079481730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_33
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 110
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d7ed88da0f736419f3cf0f06bbf8c9
+      internalID: 1238320202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_34
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 110
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052f0b2df7a9073439dda0d2e4ed7862
+      internalID: -1682403394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_35
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 94
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c214c7110589c445917d009a58404bb
+      internalID: -2021803644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_36
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 94
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fbc396ef58fad4cb11be50677a31bf
+      internalID: 1160735505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_37
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 94
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65b2c73af68d934bb545bb7b0d38747
+      internalID: 1372235920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 111
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392bbfccdda230f4eb5de628547d2925
+      internalID: -408800855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_39
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 111
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82a42a292d9bdd4c90d437e9297801c
+      internalID: -1209001629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_40
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 111
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b495e7ab8551f9043bead61b1e35cdab
+      internalID: 94073305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_41
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 111
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d22e9ebf3a8194f8d2e0f53a8124a5
+      internalID: 1129482078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24f29d72ffa3949b5ea8a35ad7b138
+      internalID: -1036667281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 82
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d1f5b4d9359b3439d112decf804ca0
+      internalID: 1885530097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_44
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 82
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6ead76ba864af448459c3abcb26c8f
+      internalID: 1192573899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_45
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 82
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac071bfa1e5eda543853e985493541a3
+      internalID: 1374413280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 82
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f0240770d19fc47b067be35ed5f4ff
+      internalID: -691489220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_47
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 82
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05246976341c21f449fd5b891ee12eb7
+      internalID: 241665190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_48
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 82
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6df25e94b598f4d90e295c35b26a36
+      internalID: -1196310474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_49
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 91
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d073c20b893fd4ca972d1267bb103c
+      internalID: -1970033819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_50
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 91
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f72434b53db2043b097e85b407052c
+      internalID: 1853516915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 91
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bc881f91f307c45a21d39d71dc9733
+      internalID: -331810069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_52
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 91
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44ef1ca7d9147e48a9961f80172c46e
+      internalID: -651383386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_53
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 91
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4179812bd1d02045ba42063b2690cab
+      internalID: 416849858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_54
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 67
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cbc6fc60c6fce44870692219466ec6
+      internalID: -881270044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_55
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 67
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8385279ca8e09243beb2a8f2457eaca
+      internalID: -1756634971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_56
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 67
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e144ba335f3d8a641979e51bd04ac3d4
+      internalID: -1061884157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_57
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 67
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cc5938a71247b4b93203a87f82fc2b
+      internalID: 1388691346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_58
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 67
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d8606b6bc8d0440b059b1ebb7be2a7
+      internalID: 1602779777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_59
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 67
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3bfedd9ae9fce4e80ebc41f45af273
+      internalID: -14790385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0db9a1e24a50742bae06b2717a0649
+      internalID: -1114840687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_61
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477695be672931a43b75f8ef5485c9e9
+      internalID: -824627776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_62
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bec76c7978a6d4ea00c42793e41ad5
+      internalID: 674755727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_63
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f289d75ec3f63ba45a615740cf1b78d1
+      internalID: -1653823230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2c6014e7628fb4e993323eb91b8ff5
+      internalID: 1291403564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_65
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8515b8fdf158a024da0b3562cf004b05
+      internalID: 69428706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_66
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f606d7f742df14d8623e59537cc328
+      internalID: 1757911105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_67
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6087ee3e3d0093448966a37b52a4d219
+      internalID: 1630118088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_68
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37831a9832c3f5b49af58c0378949c43
+      internalID: -1811806994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_69
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca12bf866e48b9f4c9106ad041826f15
+      internalID: -1397197662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_70
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 55
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53261c7ecd411144a07db55cf591bc4
+      internalID: 114244756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_71
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 67
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d38fbb0ee235b8438827f67e3fc45a9
+      internalID: -1195765182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_72
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 67
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d784c3310f34454ca81d9d04ae8add0
+      internalID: 1908810449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_73
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73275e6d0826e64c845024f068ca5e6
+      internalID: 1112282029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_74
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 28
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5b5c1d9275c454aafc925457daec90
+      internalID: -1258404076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_75
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 28
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55648b4f535efbc4caa93c342997c987
+      internalID: 1203097674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_76
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 28
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7db989316495a449937e1c8bd41a1e5
+      internalID: -1679744565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_77
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 28
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3906e5d100442bf4a91ff7c0772a847e
+      internalID: 1442000298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 28
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702664bf5a2ae724daccf1a749b127fd
+      internalID: 1616414811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_79
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 28
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a38dc00a4915b64296aaed71d8396b4
+      internalID: 1064849352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_80
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 28
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b812c7b5e9afed469b0af121c98a530
+      internalID: 2068710914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_81
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 28
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65bfecd030c71d4c9382f46b3855c62
+      internalID: -238147983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_82
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 27
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deebe7dd0d66f7a40a43073ba3b91e98
+      internalID: 1925172187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_83
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 27
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073d7a213a2c0da4086db79511c45171
+      internalID: 1804301338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 27
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bb29d6b9fe53948a5cf8222b2a04e4
+      internalID: 1409292247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_85
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 27
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07c9f33b8efda94787f075e15a54d04
+      internalID: 294760407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_86
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 40
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21f3b10f556ba7468c3437d42de6d46
+      internalID: -200561293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_87
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 40
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14210d371b132e14d93956ae83da90e9
+      internalID: 695290149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_88
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 40
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a61ce9f534dd9244a862fdbc0e443ae
+      internalID: -767337818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_89
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 32
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4305cb6cac0ce054ca68172e3c1a6178
+      internalID: 1742181425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_90
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 32
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f5e1c0c873fc54b99d7e2919c765e2
+      internalID: 444004362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_91
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 32
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6973f9d2d602147b96aef53812a723
+      internalID: -1996289404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_92
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 32
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561da9e3c6eba5643974235363c20795
+      internalID: 467024900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_93
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14682bc299db2e546a42552009628eae
+      internalID: -1468600854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_94
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46807abb0268fa94da3500f611b96cf7
+      internalID: -1373143836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_95
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf25e02e92c3745a1a77ddcb36154f
+      internalID: -333311087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_96
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318e614f68c7fed49b04962fa5946dbf
+      internalID: 289337710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_97
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493d48fb2a92f5f42bf138e3e31cdf30
+      internalID: -1770277998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89afaa71a4688f4d8212b9db461c6c2
+      internalID: 601730441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_99
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f71ce0e50f1e4448bbadc9280c5601
+      internalID: 1295861324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_100
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b97e4ee2d79a9e4b8aa3dd8e1e24240
+      internalID: -596545826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_101
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35926fd059a26734b928a9958a10c0d8
+      internalID: 1495258501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_102
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 5
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b1b7a3b616c4348a114eda6a528eff
+      internalID: -1930664795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_103
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 5
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906c4e7d8f9ccb942b7880ab5e0e4ae1
+      internalID: -1773029958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_104
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 5
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d54c70c061e6d4bb7ceecb246a5bb1
+      internalID: -64831983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_105
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 5
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3dcf59eeae47a47a092fb7bdbb78dc
+      internalID: 814346440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_106
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 5
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abb03f92616c064b85646932baecdf8
+      internalID: -387319707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_107
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 5
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939c1cdc829708644890321a5332db7b
+      internalID: -1134314820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Commando - Enemy Soldiers_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 488
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05edb15a60e3b434aa5ce04fc75c6c4d
+      internalID: -1851194536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +2408,116 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NES - Commando - Enemy Soldiers_0: -1933876766
+      NES - Commando - Enemy Soldiers_1: 722223070
+      NES - Commando - Enemy Soldiers_10: 293688996
+      NES - Commando - Enemy Soldiers_100: -596545826
+      NES - Commando - Enemy Soldiers_101: 1495258501
+      NES - Commando - Enemy Soldiers_102: -1930664795
+      NES - Commando - Enemy Soldiers_103: -1773029958
+      NES - Commando - Enemy Soldiers_104: -64831983
+      NES - Commando - Enemy Soldiers_105: 814346440
+      NES - Commando - Enemy Soldiers_106: -387319707
+      NES - Commando - Enemy Soldiers_107: -1134314820
+      NES - Commando - Enemy Soldiers_108: -1851194536
+      NES - Commando - Enemy Soldiers_11: 939666789
+      NES - Commando - Enemy Soldiers_12: 1270592263
+      NES - Commando - Enemy Soldiers_13: -1372704733
+      NES - Commando - Enemy Soldiers_14: 1984566585
+      NES - Commando - Enemy Soldiers_15: 605896095
+      NES - Commando - Enemy Soldiers_16: -1065591415
+      NES - Commando - Enemy Soldiers_17: 833460429
+      NES - Commando - Enemy Soldiers_18: -443800382
+      NES - Commando - Enemy Soldiers_19: 24849877
+      NES - Commando - Enemy Soldiers_2: 44826829
+      NES - Commando - Enemy Soldiers_20: -506869171
+      NES - Commando - Enemy Soldiers_21: -1554955601
+      NES - Commando - Enemy Soldiers_22: -837024684
+      NES - Commando - Enemy Soldiers_23: -1359584769
+      NES - Commando - Enemy Soldiers_24: 1366528908
+      NES - Commando - Enemy Soldiers_25: -756025794
+      NES - Commando - Enemy Soldiers_26: 918785176
+      NES - Commando - Enemy Soldiers_27: 976795807
+      NES - Commando - Enemy Soldiers_28: 556341573
+      NES - Commando - Enemy Soldiers_29: 1402416387
+      NES - Commando - Enemy Soldiers_3: 1372686670
+      NES - Commando - Enemy Soldiers_30: 2077640033
+      NES - Commando - Enemy Soldiers_31: -1713397018
+      NES - Commando - Enemy Soldiers_32: -2079481730
+      NES - Commando - Enemy Soldiers_33: 1238320202
+      NES - Commando - Enemy Soldiers_34: -1682403394
+      NES - Commando - Enemy Soldiers_35: -2021803644
+      NES - Commando - Enemy Soldiers_36: 1160735505
+      NES - Commando - Enemy Soldiers_37: 1372235920
+      NES - Commando - Enemy Soldiers_38: -408800855
+      NES - Commando - Enemy Soldiers_39: -1209001629
+      NES - Commando - Enemy Soldiers_4: 623582335
+      NES - Commando - Enemy Soldiers_40: 94073305
+      NES - Commando - Enemy Soldiers_41: 1129482078
+      NES - Commando - Enemy Soldiers_42: -1036667281
+      NES - Commando - Enemy Soldiers_43: 1885530097
+      NES - Commando - Enemy Soldiers_44: 1192573899
+      NES - Commando - Enemy Soldiers_45: 1374413280
+      NES - Commando - Enemy Soldiers_46: -691489220
+      NES - Commando - Enemy Soldiers_47: 241665190
+      NES - Commando - Enemy Soldiers_48: -1196310474
+      NES - Commando - Enemy Soldiers_49: -1970033819
+      NES - Commando - Enemy Soldiers_5: 693189612
+      NES - Commando - Enemy Soldiers_50: 1853516915
+      NES - Commando - Enemy Soldiers_51: -331810069
+      NES - Commando - Enemy Soldiers_52: -651383386
+      NES - Commando - Enemy Soldiers_53: 416849858
+      NES - Commando - Enemy Soldiers_54: -881270044
+      NES - Commando - Enemy Soldiers_55: -1756634971
+      NES - Commando - Enemy Soldiers_56: -1061884157
+      NES - Commando - Enemy Soldiers_57: 1388691346
+      NES - Commando - Enemy Soldiers_58: 1602779777
+      NES - Commando - Enemy Soldiers_59: -14790385
+      NES - Commando - Enemy Soldiers_6: 1132024966
+      NES - Commando - Enemy Soldiers_60: -1114840687
+      NES - Commando - Enemy Soldiers_61: -824627776
+      NES - Commando - Enemy Soldiers_62: 674755727
+      NES - Commando - Enemy Soldiers_63: -1653823230
+      NES - Commando - Enemy Soldiers_64: 1291403564
+      NES - Commando - Enemy Soldiers_65: 69428706
+      NES - Commando - Enemy Soldiers_66: 1757911105
+      NES - Commando - Enemy Soldiers_67: 1630118088
+      NES - Commando - Enemy Soldiers_68: -1811806994
+      NES - Commando - Enemy Soldiers_69: -1397197662
+      NES - Commando - Enemy Soldiers_7: -555931504
+      NES - Commando - Enemy Soldiers_70: 114244756
+      NES - Commando - Enemy Soldiers_71: -1195765182
+      NES - Commando - Enemy Soldiers_72: 1908810449
+      NES - Commando - Enemy Soldiers_73: 1112282029
+      NES - Commando - Enemy Soldiers_74: -1258404076
+      NES - Commando - Enemy Soldiers_75: 1203097674
+      NES - Commando - Enemy Soldiers_76: -1679744565
+      NES - Commando - Enemy Soldiers_77: 1442000298
+      NES - Commando - Enemy Soldiers_78: 1616414811
+      NES - Commando - Enemy Soldiers_79: 1064849352
+      NES - Commando - Enemy Soldiers_8: -1067651479
+      NES - Commando - Enemy Soldiers_80: 2068710914
+      NES - Commando - Enemy Soldiers_81: -238147983
+      NES - Commando - Enemy Soldiers_82: 1925172187
+      NES - Commando - Enemy Soldiers_83: 1804301338
+      NES - Commando - Enemy Soldiers_84: 1409292247
+      NES - Commando - Enemy Soldiers_85: 294760407
+      NES - Commando - Enemy Soldiers_86: -200561293
+      NES - Commando - Enemy Soldiers_87: 695290149
+      NES - Commando - Enemy Soldiers_88: -767337818
+      NES - Commando - Enemy Soldiers_89: 1742181425
+      NES - Commando - Enemy Soldiers_9: -1303103673
+      NES - Commando - Enemy Soldiers_90: 444004362
+      NES - Commando - Enemy Soldiers_91: -1996289404
+      NES - Commando - Enemy Soldiers_92: 467024900
+      NES - Commando - Enemy Soldiers_93: -1468600854
+      NES - Commando - Enemy Soldiers_94: -1373143836
+      NES - Commando - Enemy Soldiers_95: -333311087
+      NES - Commando - Enemy Soldiers_96: 289337710
+      NES - Commando - Enemy Soldiers_97: -1770277998
+      NES - Commando - Enemy Soldiers_98: 601730441
+      NES - Commando - Enemy Soldiers_99: 1295861324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
