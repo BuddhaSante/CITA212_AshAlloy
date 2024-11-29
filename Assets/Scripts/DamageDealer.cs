@@ -3,34 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Handles damage logic for projectiles and other damaging objects in the game.
+/// Manages damage logic for projectiles or other damage-dealing objects.
+/// This script allows flexibility for triggering additional effects when an object deals damage.
 /// </summary>
 public class DamageDealer : MonoBehaviour
 {
     [Header("Damage Settings")]
     [SerializeField] int damage = 10; // The amount of damage dealt by this object
-    [Tooltip("Enable this to trigger additional effects when damage is dealt.")]
-    public bool triggerEffects = true;
+    [Tooltip("Enable this to trigger visual/audio effects when damage is dealt.")]
+    public bool triggerEffects = true; // Toggle to activate hit effects
 
     /// <summary>
-    /// Gets the amount of damage this object deals.
+    /// Gets the damage value dealt by this object.
     /// </summary>
-    /// <returns>The damage value.</returns>
+    /// <returns>Integer value of the damage.</returns>
     public int GetDamage()
     {
         return damage;
     }
 
     /// <summary>
-    /// Called when this object successfully hits a target.
-    /// Can trigger additional effects or destroy the object.
+    /// Called when this object successfully deals damage.
+    /// Handles destruction and optional visual/audio effects.
     /// </summary>
     public void Hit()
     {
         if (triggerEffects)
         {
-            // Optionally notify other systems (e.g., particles, sound)
-            TriggerHitEffects();
+            TriggerHitEffects(); // Optionally trigger effects like particles or sounds
         }
 
         // Destroy the game object after dealing damage
@@ -39,11 +39,11 @@ public class DamageDealer : MonoBehaviour
 
     /// <summary>
     /// Triggers visual or audio effects when damage is dealt.
-    /// This method can be expanded for more dynamic feedback.
+    /// Expand this function for customized feedback.
     /// </summary>
     private void TriggerHitEffects()
     {
-        // Example: Play a sound or particle effect here
-        Debug.Log("Hit triggered! Add effects like particles or sound here.");
+        // Placeholder: Add particle effects, sound effects, or screen shake here
+        Debug.Log("Damage dealt! Add visual or sound effects here.");
     }
 }

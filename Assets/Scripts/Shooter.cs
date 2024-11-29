@@ -22,11 +22,13 @@ public class Shooter : MonoBehaviour
     [HideInInspector] public bool isFiring = false;     // Tracks whether the shooter is actively firing
 
     private Coroutine firingCoroutine;                  // Reference to the firing coroutine
+    private Animator playerAnimator;                    // Reference to the Animator for firing animations
     private AudioPlayer audioPlayer;                    // Reference to the AudioPlayer script
 
     void Awake()
     {
-        // Initialize reference to the AudioPlayer script
+        // Initialize reference to the Animator and AudioPlayer
+        playerAnimator = GetComponent<Animator>();
         audioPlayer = FindObjectOfType<AudioPlayer>();
     }
 
@@ -41,14 +43,13 @@ public class Shooter : MonoBehaviour
 
     void Update()
     {
-        Fire(); // Continuously check firing state
+        HandleFiring(); // Continuously check and handle firing state
     }
 
     /// <summary>
-    /// Handles firing logic, ensuring a continuous firing rate.
-    /// Starts or stops the firing coroutine based on the firing state.
+    /// Starts or stops firing based on the current firing state.
     /// </summary>
-    void Fire()
+    void HandleFiring()
     {
         if (isFiring && firingCoroutine == null)
         {
@@ -59,17 +60,22 @@ public class Shooter : MonoBehaviour
             StopCoroutine(firingCoroutine);
             firingCoroutine = null;
         }
+
+        // Update Animator firing state
+        if (playerAnimator != null)
+        {
+            playerAnimator.SetBool("isFiring", isFiring);
+        }
     }
 
     /// <summary>
-    /// Coroutine to handle continuous firing of projectiles.
-    /// Includes dynamic intervals for AI-controlled shooters.
+    /// Coroutine to continuously fire projectiles at regular intervals.
     /// </summary>
     IEnumerator FireContinuously()
     {
         while (true)
         {
-            // Instantiate the projectile
+            // Instantiate the projectile at the current position
             GameObject instance = Instantiate(
                 projectilePrefab, 
                 transform.position, 
@@ -80,25 +86,25 @@ public class Shooter : MonoBehaviour
             Rigidbody2D rb = instance.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
-                rb.velocity = transform.up * projectileSpeed; // Fire in the upward direction
+                rb.velocity = transform.up * projectileSpeed; // Fire in the "up" direction
             }
 
             // Destroy the projectile after its lifetime expires
             Destroy(instance, projectileLifetime);
 
-            // Play firing sound
+            // Play shooting sound (if an AudioPlayer is linked)
             if (audioPlayer != null)
             {
                 audioPlayer.PlayShootingClip();
             }
 
-            // Calculate next firing interval
+            // Calculate the time until the next projectile is fired
             float timeToNextProjectile = Random.Range(
                 baseFiringRate - firingRateVariance, 
                 baseFiringRate + firingRateVariance
             );
 
-            // Clamp the interval to ensure it doesn't fall below the minimum rate
+            // Clamp the interval to ensure it stays above the minimum firing rate
             timeToNextProjectile = Mathf.Clamp(timeToNextProjectile, minimumFiringRate, float.MaxValue);
 
             // Wait for the calculated interval before firing again
