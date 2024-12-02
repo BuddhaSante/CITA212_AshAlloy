@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: -1809566214532023022}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,6 +192,7 @@ MonoBehaviour:
   paddingTop: 3
   paddingBottom: 3
   playerSprite: {fileID: 0}
+  playerAnimator: {fileID: 0}
 --- !u!50 &585069441634228688
 Rigidbody2D:
   serializedVersion: 4
@@ -287,6 +288,8 @@ MonoBehaviour:
   projectileSpeed: 10
   projectileLifetime: 5
   baseFiringRate: 0.2
+  firingPoint: {fileID: 0}
+  mainCamera: {fileID: 0}
   useAI: 0
   firingRateVariance: 0
   minimumFiringRate: 0.1

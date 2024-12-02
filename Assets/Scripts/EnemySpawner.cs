@@ -77,11 +77,18 @@ public class EnemySpawner : MonoBehaviour
         );
 
         // Instantiate the enemy prefab
-        Instantiate(
+        GameObject enemy = Instantiate(
             wave.GetEnemyPrefab(index), // Enemy prefab
             spawnPosition,              // Spawn position
             Quaternion.Euler(0, 0, 180), // Rotation (facing downward for top-down shooters)
             transform                   // Set this spawner as the parent
         );
+
+        // Enable automatic firing for the spawned enemy
+        Shooter enemyShooter = enemy.GetComponent<Shooter>();
+        if (enemyShooter != null)
+        {
+            enemyShooter.isFiring = true; // Start firing immediately
+        }
     }
 }

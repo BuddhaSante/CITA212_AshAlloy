@@ -15,14 +15,14 @@ public class Player : MonoBehaviour
     [SerializeField] float paddingRight;
     [SerializeField] float paddingTop;
     [SerializeField] float paddingBottom;
-    Vector2 minBounds;
-    Vector2 maxBounds;
+    Vector2 minBounds; // Minimum screen boundaries
+    Vector2 maxBounds; // Maximum screen boundaries
 
     [Header("References")]
-    Shooter shooter;
-    Camera mainCamera;
-    [SerializeField] Transform playerSprite;
-    [SerializeField] Animator playerAnimator;
+    Shooter shooter; // Reference to the Shooter component
+    Camera mainCamera; // Main camera in the scene
+    [SerializeField] Transform playerSprite; // Player's sprite transform
+    [SerializeField] Animator playerAnimator; // Animator for controlling animations
 
     void Awake()
     {
@@ -32,18 +32,19 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        InitBounds();
+        InitBounds(); // Initialize screen boundaries
     }
 
     void Update()
     {
-        Move();
-        RotateTowardsMouse();
-        UpdateIdleDirection(); // Ensure idle matches mouse direction when stationary
+        Move(); // Handle movement input
+        UpdateMouseDirection(); // Set animations based on mouse direction
+        UpdateIdleDirection(); // Ensure idle animations align with the mouse direction
     }
 
     void InitBounds()
     {
+        // Find camera bounds to restrict player movement
         PolygonCollider2D cameraBounds = GameObject.Find("CameraBounds").GetComponent<PolygonCollider2D>();
         if (cameraBounds != null)
         {
@@ -59,6 +60,7 @@ public class Player : MonoBehaviour
 
     void Move()
     {
+        // Calculate new position based on input
         Vector2 delta = rawInput * moveSpeed * Time.deltaTime;
         Vector2 newPos = new Vector2(
             Mathf.Clamp(transform.position.x + delta.x, minBounds.x + paddingLeft, maxBounds.x - paddingRight),
@@ -66,7 +68,7 @@ public class Player : MonoBehaviour
         );
         transform.position = newPos;
 
-        // Update last movement direction
+        // Update last movement direction if moving
         if (rawInput.magnitude > 0)
         {
             lastDirection = rawInput.normalized;
@@ -79,24 +81,40 @@ public class Player : MonoBehaviour
         playerAnimator.SetBool("isMoving", rawInput.magnitude > 0);
     }
 
-    void RotateTowardsMouse()
+    void UpdateMouseDirection()
     {
+        // Determine the direction from the player to the mouse position
         Vector3 mouseScreenPosition = Input.mousePosition;
         Vector3 mouseWorldPosition = mainCamera.ScreenToWorldPoint(mouseScreenPosition);
-        mouseWorldPosition.z = 0;
+        mouseWorldPosition.z = 0; // Ensure z-coordinate is 0 for 2D calculations
 
-        Vector2 direction = (mouseWorldPosition - transform.position).normalized;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        playerSprite.rotation = Quaternion.Euler(0, 0, angle);
+        Vector2 directionToMouse = (mouseWorldPosition - transform.position).normalized;
+
+        // Update Animator parameters based on the mouse direction
+        if (Mathf.Abs(directionToMouse.x) > Mathf.Abs(directionToMouse.y))
+        {
+            // Horizontal aiming
+            playerAnimator.SetFloat("Horizontal", directionToMouse.x > 0 ? 1f : -1f);
+            playerAnimator.SetFloat("Vertical", 0f);
+        }
+        else
+        {
+            // Vertical aiming
+            playerAnimator.SetFloat("Horizontal", 0f);
+            playerAnimator.SetFloat("Vertical", directionToMouse.y > 0 ? 1f : -1f);
+        }
+        playerAnimator.SetBool("isAiming", true); // Set aiming state to true
     }
 
     void UpdateIdleDirection()
     {
+        // Update the last direction when idle (not moving)
         if (rawInput.magnitude == 0)
         {
             Vector3 mouseWorldPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             Vector2 directionToMouse = (mouseWorldPosition - transform.position).normalized;
 
+            // Determine if the mouse is more horizontal or vertical relative to the player
             if (Mathf.Abs(directionToMouse.x) > Mathf.Abs(directionToMouse.y))
             {
                 lastDirection = directionToMouse.x > 0 ? Vector2.right : Vector2.left;
@@ -110,14 +128,14 @@ public class Player : MonoBehaviour
 
     void OnMove(InputValue value)
     {
-        rawInput = value.Get<Vector2>();
+        rawInput = value.Get<Vector2>(); // Capture movement input
     }
 
     void OnFire(InputValue value)
     {
         if (shooter != null)
         {
-            shooter.isFiring = value.isPressed;
+            shooter.isFiring = value.isPressed; // Enable/disable firing
         }
     }
 }

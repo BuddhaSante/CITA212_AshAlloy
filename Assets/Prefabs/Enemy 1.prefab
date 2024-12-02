@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -1219284081239059478}
   m_Layer: 7
   m_Name: Enemy 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,6 +159,8 @@ MonoBehaviour:
   projectileSpeed: 10
   projectileLifetime: 5
   baseFiringRate: 1
+  firingPoint: {fileID: 0}
+  mainCamera: {fileID: 0}
   useAI: 1
   firingRateVariance: 0.5
   minimumFiringRate: 0.1
