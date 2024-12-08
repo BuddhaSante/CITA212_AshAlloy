@@ -23,11 +23,26 @@ public class Pathfinder : MonoBehaviour
 
     void Start()
     {
-        // Initializes the wave configuration and sets up waypoints
-        waveConfig = enemySpawner.GetCurrentWave();
-        waypoints = waveConfig.GetWaypoints();
-        transform.position = waypoints[waypointIndex].position; // Start at the first waypoint
+        if (enemySpawner != null)
+        {
+            Debug.LogWarning("Pathfinder no longer uses EnemySpawner. Check script dependencies.");
+        }
+
+        // Assign waypoints directly if needed (e.g., via the Inspector or a ScriptableObject)
+        if (waveConfig != null)
+        {
+            waypoints = waveConfig.GetWaypoints();
+            if (waypoints.Count > 0)
+            {
+                transform.position = waypoints[waypointIndex].position;
+            }
+        }
+        else
+        {
+            Debug.LogError("WaveConfigSO is missing! Pathfinder cannot operate without waypoints.");
+        }
     }
+
 
     void Update()
     {

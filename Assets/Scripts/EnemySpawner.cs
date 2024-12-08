@@ -3,92 +3,75 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Spawns enemies in waves based on predefined configurations.
-/// Supports looping and randomized spawn positions for variety.
+/// Dynamically spawns enemies based on the player's position and the bounds
+/// defined by the CameraBounds object.
 /// </summary>
 public class EnemySpawner : MonoBehaviour
 {
-    [Header("Wave Configuration")]
-    [SerializeField] List<WaveConfigSO> waveConfigs; // List of wave configurations
-    [SerializeField] float timeBetweenWaves = 2f;    // Time delay between waves
-    [SerializeField] bool isLooping = false;         // Whether the waves repeat after completion
+    [Header("Enemy Spawning Settings")]
+    [Tooltip("The prefab used for spawning enemies.")]
+    [SerializeField] GameObject enemyPrefab; // Enemy prefab to spawn
 
-    private WaveConfigSO currentWave; // Tracks the current wave being spawned
+    [Tooltip("Time interval between spawns, in seconds.")]
+    [SerializeField] float spawnInterval = 2f; // Time between spawns
+
+    [Tooltip("Vertical offset for enemy spawns above the player.")]
+    [SerializeField] float verticalSpawnOffset = 10f; // Distance above the player for spawning
+
+    [Tooltip("Reference to the player's Transform.")]
+    [SerializeField] Transform player; // Player reference
+
+    [Tooltip("Reference to the CameraBounds object.")]
+    [SerializeField] GameObject cameraBounds; // Object defining the stage boundaries
+
+    private Bounds bounds; // The bounds of the CameraBounds collider
 
     void Start()
     {
-        // Starts the enemy wave spawning coroutine
-        StartCoroutine(SpawnEnemyWaves());
-    }
-
-    /// <summary>
-    /// Retrieves the current wave configuration.
-    /// </summary>
-    /// <returns>The active WaveConfigSO.</returns>
-    public WaveConfigSO GetCurrentWave()
-    {
-        return currentWave;
-    }
-
-    /// <summary>
-    /// Coroutine that handles spawning enemies for all waves in sequence.
-    /// Supports looping if enabled.
-    /// </summary>
-    IEnumerator SpawnEnemyWaves()
-    {
-        do
+        // Retrieve the bounds of the CameraBounds object
+        PolygonCollider2D collider = cameraBounds.GetComponent<PolygonCollider2D>();
+        if (collider != null)
         {
-            // Iterate through each wave in the configuration list
-            foreach (WaveConfigSO wave in waveConfigs)
-            {
-                currentWave = wave; // Set the active wave
-
-                // Spawn each enemy in the wave
-                for (int i = 0; i < currentWave.GetEnemyCount(); i++)
-                {
-                    SpawnEnemy(currentWave, i); // Spawn enemy with specific configuration
-
-                    // Wait before spawning the next enemy
-                    yield return new WaitForSeconds(currentWave.GetRandomSpawnTime());
-                }
-
-                // Wait before starting the next wave
-                yield return new WaitForSeconds(timeBetweenWaves);
-            }
+            bounds = collider.bounds;
         }
-        while (isLooping); // Repeat if looping is enabled
+        else
+        {
+            Debug.LogError("CameraBounds object must have a PolygonCollider2D!");
+            return;
+        }
+
+        // Begin continuously spawning enemies
+        StartCoroutine(SpawnEnemies());
     }
 
     /// <summary>
-    /// Spawns a single enemy based on the current wave configuration.
-    /// Adds random offsets to the position for variety.
+    /// Continuously spawns enemies within the bounds and above the player.
     /// </summary>
-    /// <param name="wave">The wave configuration.</param>
-    /// <param name="index">The index of the enemy in the wave.</param>
-    private void SpawnEnemy(WaveConfigSO wave, int index)
+    IEnumerator SpawnEnemies()
     {
-        Vector3 spawnPosition = wave.GetStartingWaypoint().position;
-
-        // Add a slight random offset for spawn variation
-        spawnPosition += new Vector3(
-            Random.Range(-0.5f, 0.5f), // Random offset in X
-            Random.Range(-0.5f, 0.5f), // Random offset in Y
-            0
-        );
-
-        // Instantiate the enemy prefab
-        GameObject enemy = Instantiate(
-            wave.GetEnemyPrefab(index), // Enemy prefab
-            spawnPosition,              // Spawn position
-            Quaternion.Euler(0, 0, 180), // Rotation (facing downward for top-down shooters)
-            transform                   // Set this spawner as the parent
-        );
-
-        // Enable automatic firing for the spawned enemy
-        Shooter enemyShooter = enemy.GetComponent<Shooter>();
-        if (enemyShooter != null)
+        while (true)
         {
-            enemyShooter.isFiring = true; // Start firing immediately
+            // Ensure the spawn position stays within the CameraBounds
+            float spawnX = Random.Range(bounds.min.x, bounds.max.x); // Random X within bounds
+            float spawnY = Mathf.Min(
+                player.position.y + verticalSpawnOffset, // Offset above the player
+                bounds.max.y                            // Do not exceed the upper bounds
+            );
+
+            Vector3 spawnPosition = new Vector3(spawnX, spawnY, 0);
+
+            // Spawn the enemy
+            GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+
+            // Assign the player as the target for the spawned enemy
+            EnemyMovement enemyMovement = enemy.GetComponent<EnemyMovement>();
+            if (enemyMovement != null)
+            {
+                enemyMovement.SetTarget(player); // Set the target dynamically
+            }
+
+            // Wait for the specified interval before spawning the next enemy
+            yield return new WaitForSeconds(spawnInterval);
         }
     }
 }

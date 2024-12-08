@@ -138,4 +138,10 @@ public class Player : MonoBehaviour
             shooter.isFiring = value.isPressed; // Enable/disable firing
         }
     }
+
+    public float GetVerticalSpeed()
+    {
+        return rawInput.y * moveSpeed; // Adjust based on how rawInput and movement logic are handled
+    }
+
 }
