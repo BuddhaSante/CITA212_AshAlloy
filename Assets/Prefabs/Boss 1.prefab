@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -1219284081239059478}
   - component: {fileID: 6618068147746662549}
   m_Layer: 7
-  m_Name: Boss 0
+  m_Name: Boss 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,7 +256,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: eeed707b4508a664db1fbfef32da71f9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75e1f797b85d35a47852fca092dfc23c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
