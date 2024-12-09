@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 114163316216135277}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.245, y: -0.385, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 2068710914, guid: 631a5eba02e686748b5877ba9a43bb41, type: 3}
+  m_Sprite: {fileID: 1885530097, guid: 631a5eba02e686748b5877ba9a43bb41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,6 +106,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &5156177026116885012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4674420463889421014}
+  m_Layer: 6
+  m_Name: firingPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4674420463889421014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5156177026116885012}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.158, y: 0.21, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4206653255730686819}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5786857772666761289
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,11 +168,12 @@ Transform:
   m_GameObject: {fileID: 5786857772666761289}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -17.999998, z: 0}
+  m_LocalPosition: {x: 0, y: -12.52, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6333351741488936502}
+  - {fileID: 4674420463889421014}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7371173682284055632
@@ -186,13 +218,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9444e8f7432779748a49f369315b7765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 50
+  moveSpeed: 10
   paddingLeft: 2
   paddingRight: 2
-  paddingTop: 3
-  paddingBottom: 3
-  playerSprite: {fileID: 0}
-  playerAnimator: {fileID: 0}
+  paddingTop: 2
+  paddingBottom: 2
+  playerSprite: {fileID: 6333351741488936502}
+  playerAnimator: {fileID: 4478358343151577974}
 --- !u!50 &585069441634228688
 Rigidbody2D:
   serializedVersion: 4
@@ -268,7 +300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 1
-  maxHealth: 100
+  maxHealth: 200
   scoreValue: 50
   hitEffect: {fileID: 3885992316981291198, guid: 403b00acf4afcda4ca4c0e298f5b8fce, type: 3}
   applyCameraShake: 1
@@ -288,7 +320,7 @@ MonoBehaviour:
   projectileSpeed: 10
   projectileLifetime: 5
   baseFiringRate: 0.2
-  firingPoint: {fileID: 0}
+  firingPoint: {fileID: 4674420463889421014}
   mainCamera: {fileID: 0}
   useAI: 0
   firingRateVariance: 0
