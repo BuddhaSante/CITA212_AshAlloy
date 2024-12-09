@@ -26,7 +26,7 @@ public class LevelManager : MonoBehaviour
     public void LoadGame()
     {
         scoreKeeper.ResetScore(); // Reset score for a new game
-        StartCoroutine(WaitAndLoad("Game")); // Load the game scene
+        StartCoroutine(WaitAndLoad("Level 1-0")); // Load the game scene
     }
 
     /// <summary>

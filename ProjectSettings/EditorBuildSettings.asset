@@ -9,14 +9,32 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 0a2b35308e104d24a907f64407b20a4f
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/Level 1-0.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Game 2.unity
+    path: Assets/Scenes/Level 1-1.unity
     guid: 42621d0d8a7b6354e8fbb552c999a89c
   - enabled: 1
-    path: Assets/Scenes/Game 3.unity
+    path: Assets/Scenes/Level 2.unity
+    guid: 95eade99bd6e4014b9a5bc01e675f3b5
+  - enabled: 1
+    path: Assets/Scenes/Level 2-0.unity
     guid: 21df64299ee62bd4dbf896e351d2deac
+  - enabled: 1
+    path: Assets/Scenes/Level 2-1.unity
+    guid: 2225d13da381e14479e59293b64975bf
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: fd4279b3a21deda49a8de464fa99d700
+  - enabled: 1
+    path: Assets/Scenes/Level 3-0.unity
+    guid: 6fe5c9c3b6420e04a9bb9594b1781aa4
+  - enabled: 1
+    path: Assets/Scenes/Level 3-1.unity
+    guid: 2fbb175547addbc4d9977381ab3e728c
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: 432d31d8df94b0940a86ee1bcb7c4c35
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: dea2756b504c4dc40995f141be43f933

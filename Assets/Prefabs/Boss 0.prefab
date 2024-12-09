@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 123483185133082304}
   - component: {fileID: -5434421293003709446}
   - component: {fileID: -1219284081239059478}
-  - component: {fileID: 5600094935366439551}
+  - component: {fileID: 6618068147746662549}
   m_Layer: 7
   m_Name: Boss 0
   m_TagString: Enemy
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1648071760876573044}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.0056037, y: 290.5793, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -118,6 +118,22 @@ MonoBehaviour:
   scoreValue: 200
   hitEffect: {fileID: 3885992316981291198, guid: 403b00acf4afcda4ca4c0e298f5b8fce, type: 3}
   applyCameraShake: 0
+  isBoss: 1
+  onBossDefeated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: NextLevelTrigger, Assembly-CSharp
+        m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &-5434421293003709446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +170,7 @@ MonoBehaviour:
   firingRateVariance: 0.02
   minimumFiringRate: 0.02
   isFiring: 0
---- !u!114 &5600094935366439551
+--- !u!114 &6618068147746662549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,10 +179,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1648071760876573044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91b077e0fdc22eb419a1f7f7a951ef4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d3448df5df468c4cbb39be7384af99e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 2
 --- !u!1 &5557146097024509704
 GameObject:
   m_ObjectHideFlags: 0
